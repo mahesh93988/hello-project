@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { NewgitComponent } from './newgit/newgit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent
+    UsersComponent,
+    NewgitComponent
   ],
   imports: [
     BrowserModule,
